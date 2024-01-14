@@ -1,3 +1,7 @@
+#twomingville
+
+Turning this space into my personal blog. Read what you like. 
+
 # ricefam
 
 As a part of my graudate certificate in Boston University's Food Studies program, I took a course called "Planning a Food Business." 
