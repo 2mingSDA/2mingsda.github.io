@@ -1,0 +1,41 @@
+/*style header*/
+.header {
+  text-align: center;
+  font-size: 35px;
+  font-family: monospace;
+}
+
+/*navbar stuff*/
+.container{
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  margin: 20;
+  padding: 0;
+  overflow: hidden;
+  background-color: #708090;
+  font-size: 30px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #708090;
+}
+
+li a:hover {
+  background-color: #2F4F4F;
+}
+
+.active {
+  background-color: #008080;
+}
