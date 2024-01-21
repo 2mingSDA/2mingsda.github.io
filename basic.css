@@ -3,12 +3,23 @@
   text-align: center;
   font-size: 35px;
   font-family: monospace;
+  color: white;
 }
 
 /*navbar stuff*/
 .container{
   display: flex;
   justify-content: center;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.content {
+  background-color: rgba(256, 256, 256, 0.75);
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: monospace;
+  margin: 35px;
 }
 ul {
   list-style-type: none;
