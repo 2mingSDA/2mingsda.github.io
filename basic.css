@@ -1,33 +1,55 @@
 /*style header*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
   text-align: center;
   font-size: 35px;
   font-family: monospace;
   color: white;
+
 }
 
-/*navbar stuff*/
-.container{
+
+/*navbars*/
+.sidenav{
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  background-color: #F4EED9;
+  overflow-x: hidden;
+  font-family: monospace;
+  font-size: 22px;
+}
+
+.sidenav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+
+}
+
+.topnav{
   display: flex;
   justify-content: center;
   font-size: 25px;
   font-family: monospace;
+  background-color: #A5B494;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 1005:
 }
 
-.content {
-  background-color: rgba(256, 256, 256, 0.75);
-  font-size: 18px;
-  line-height: 1.2;
-  font-family: monospace;
-  margin: 35px;
-}
 ul {
   list-style-type: none;
-  margin: 20;
+  margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #708090;
-  font-size: 30px;
+  background-color: #A5B494;
 }
 
 li {
@@ -36,11 +58,11 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #F4EED9;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: #708090;
+  background-color: #A5B494;
 }
 
 li a:hover {
@@ -48,5 +70,37 @@ li a:hover {
 }
 
 .active {
-  background-color: #008080;
+  background-color: #F4EED9;
+  color: #A5B494;
+}
+
+
+.section{
+  font-size: 22px;
+}
+
+.content {
+  background-color: #F4EED9;
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: monospace;
+  width: 70%;
+  left: 15%;
+  position: absolute;
+}
+
+@media screen and (max-width:600px) {
+  .sidenav {
+    display: none;
+  }
+  .content {
+    width: 90%;
+    left: 5%;
+  }
+  .header {
+    font-size: 25px;
+  }
+  .topnav {
+    font-size: 20px;
+  }
 }
