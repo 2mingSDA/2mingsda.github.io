@@ -41,20 +41,28 @@ Long term goal:
     </ul>
   </div>
 
-  <div class = 'sidenav'>
-    Jump to:<br>
+ <div class = 'sidenav'>
+   <div id="sidenav1" class="sidenav-content">
     <a href="#top"> top</a><br>
     <a href="#2024/04/04"> 2024/04/04</a><br>
     <a href="#2024/03/25"> 2024/03/25</a><br>
     <a href="#2024/03/03"> 2024/03/03</a><br>
     <a href="#2024/02/18"> 2024/02/18</a><br>
-    <a href="#2024/02/11"> 2024/02/11 [Trigger Warning]</a><br>
+    <a href="#2024/02/11"> 2024/02/11</a><br>
     <a href="#2024/02/04"> 2024/02/04</a><br>
     <a href="#2024/01/28"> 2024/01/28</a><br>
     <a href="#2024/01/21"> 2024/01/21</a><br>
-    <a href="#2024/01/14"> 2024/01/14 [Trigger Warning]</a><br>
-  </div>
+    <a href="#2024/01/14"> 2024/01/14</a><br>
+    </div>
+    <button id="jumpBtn1" class = "jumpbtn">Jump to</button>
+ </div>
 
+<script>
+	document.getElementById("jumpBtn1").onclick = function() {openSideNav()};
+	function openSideNav() {
+	  document.getElementById("sidenav1").classList.toggle("show");
+	}
+</script>
 
   <div class = 'content'>
 
@@ -269,6 +277,5 @@ Feb 10th, Saturday: lunar new year party with Turin friends & special guests fro
         <p> Recovery from trauma is not linear. 5 years later and I am still actively dealing with it, but this time surrounded by people I love and living the life that I chose. I wanted to share this moment with you, because maybe it will spread and help another trauma survivor remember that we are not alone, even if it feels like it. If you don't have a friend to call, let my friend's words help you grab a glass of water, slow down your quick and shallow breaths, and remember that we are not our demons.</p>
 
   </div>
-
 </body>
 </html>

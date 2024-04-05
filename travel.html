@@ -29,10 +29,20 @@
   </div>
 
   <div class = 'sidenav'>
-    Jump to:<br>
+    <div id="sidenav1" class="sidenav-content">
     <a href="#top"> top</a><br>
-    <a href="#2024/03/08"> milan 36hrs 2024/03/08</a><br>
-  </div>
+    <a href="#2024/03/08"> 2024/03/08</a><br>
+    </div>
+    <button id="jumpBtn1" class = "jumpbtn">Jump to</button>
+ </div>
+
+<script>
+	document.getElementById("jumpBtn1").onclick = function() {openSideNav()};
+	function openSideNav() {
+	  document.getElementById("sidenav1").classList.toggle("show");
+	}
+</script>
+
 
   <div class = 'content'>
   <div class="section" id="top"> Welcome to Twomingville </div>
@@ -47,7 +57,7 @@
 <p>I take this as the sunk cost of growing up. At least I learned something more about myself since the last time I was in Milan. I learned who the people are that matter to me the most, and I learned to save time for them.</p>
 <p>I leave you with this video of what I saw in Milan, and all the sounds that I heard that told me spring has sprung in Milan.</p>
 <center>
-<iframe width="400" height="238" src="https://www.youtube.com/embed/Boc_eoM3O-0" title="milan36hrs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="350" height="238" src="https://www.youtube.com/embed/Boc_eoM3O-0" title="milan36hrs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 </div>
 
